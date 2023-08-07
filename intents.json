@@ -1,0 +1,252 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "Admission",
+        "patterns": [
+          "How do I confirm my acceptance of the admission offer from the University of Ghana?",
+          "How do i confirm admission?",
+          "What do i do after admission?",
+          "What do i do after recieving admission letter?"
+        ],
+        "responses": [
+            "To confirm your acceptance, log in to the University of Ghana's admission portal using the credentials provided in your admission letter. Follow the instructions to complete the acceptance process online.",
+            "You can confirm your acceptance by completing the confirmation form included in your admission packet and mailing it to the address specified in the admission letter.",
+            "Visit the University of Ghana's admission office in person and submit your acceptance in hard copy."
+        ]
+      },
+      {
+        "tag": "Admission_deadline",
+        "patterns": [
+          "What is the deadline to confirm my acceptance?",
+          "What is the deadline to confirm my admission?",
+          "When do I need to confirm my acceptance by?",
+          "When do I need to confirm my admission by?"
+        ],
+        "responses": [
+            "The deadline to confirm your acceptance will be clearly stated in your admission letter. Please refer to the specified date to ensure timely confirmation.",
+            "The deadline to accept the admission offer is usually within two weeks from the date of receipt of your admission letter.",
+            "The exact deadline to confirm your acceptance will be provided on the University of Ghana's official website. Please check the admission section for the most up-to-date information."
+        ]
+      },
+      {
+        "tag": "fees",
+        "patterns": [
+          "What are the required fees for enrollment at the University of Ghana?",
+          "What are the required fees for enrollment",
+          "What fee do i pay after admission?"
+          
+        ],
+        "responses": [
+            "The required fees vary depending on your program of study. You can find detailed information about the tuition fees, registration fees, and other charges on the University of Ghana's official website or in the admission brochure.",
+            "The fee structure for each program is available on the University of Ghana's student portal. Log in to your account to access the specific fee details for your program.",
+            "The fee schedule will be provided along with your admission letter. Review the document carefully to understand the breakdown of fees and payment deadlines."
+        ]
+      },
+
+      {
+        "tag": "payments",
+        "patterns": [
+            "How do I pay the tuition fees and other charges?",
+            "How do I pay school fees?",
+            "where do I pay school fees?",
+            "where can I pay school fees?",
+            "where can I pay my fees?"
+        ],
+        "responses": [
+            "The University of Ghana provides various payment methods, including bank transfers, mobile money, and online payment platforms. Refer to the payment instructions provided in your admission letter or on the university's website for specific details.",
+            "Payment can be made through designated bank branches. The admission letter will contain bank account details and instructions for fee payment.",
+            "You can pay the fees online through the University of Ghana's student portal. Log in to your account and follow the steps to make an online payment."
+        ]
+      },
+      {
+        "tag": "payment_plan",
+        "patterns": [
+            "Can I request a payment plan for the fees?",
+            "is there a payment plan for the fees?"
+        ],
+        "responses": [
+            "The University of Ghana does not typically offer payment plans for tuition fees. However, it's best to contact the university's finance or bursary office directly to discuss any special circumstances or potential options for payment arrangements.",
+            "In exceptional cases, such as financial hardship, the University of Ghana may consider payment plan requests on a case-by-case basis. Reach out to the finance or bursary office for further guidance and support.",
+            "To discuss the possibility of a payment plan, contact the finance or bursary office as soon as possible. They will provide you with information on whether such arrangements are available and how to proceed."
+        ]
+      },
+      {
+        "tag": "scholarships",
+        "patterns": [
+            "Are there any scholarships or financial aid opportunities available?",
+            "Does University of ghana offer scholarships?",
+            "Does University of ghana offer financial aid?"
+        ],
+        "responses": [
+            "Yes, the University of Ghana offers various scholarships and financial aid opportunities for both domestic and international students. Information about scholarships can be found on the university's website or by contacting the scholarships office.",
+            "The university provides merit-based scholarships, need-based financial aid, and other grants. Visit the University of Ghana's financial aid office or website for detailed information on available opportunities and application procedures.",
+            "Scholarship opportunities may be available through external organizations as well. Check with the University of Ghana's scholarship office or the respective department for any additional funding options."
+        ]
+      },
+      {
+        "tag": "Accommodation",
+        "patterns": [
+            "How do I apply for on-campus accommodation?",
+            "How do I register for accommodation?",
+            "What are the accomodation options available at the University of Ghana?"
+        ],
+        "responses": [
+            "To apply for on-campus accommodation, you need to complete the online housing application form. The form can be accessed through the University of Ghana's student portal or the official housing website.",
+            "Visit the University of Ghana's housing office and complete the application form in person. The housing office will provide further instructions on submission and payment.",
+            "Carefully review the housing application instructions provided with your admission letter. Follow the outlined steps to submit your application online or by mail.",
+            "The University of Ghana offers various housing options, including residence halls on campus. These halls provide shared rooms or single occupancy rooms with communal facilities such as kitchens, bathrooms, and common areas.",
+            "Apart from on-campus residence halls, there are also affiliated private hostels and accommodations near the university that students can consider. The housing office can provide a list of these options and guidance on how to apply.",
+            "The university's housing office can provide detailed information about the different housing options available, including the costs, amenities, and proximity to campus. Visit their website or contact them directly for comprehensive information."
+        ]
+      },
+      {
+        "tag": "Orientation",
+        "patterns": [
+            "When will I receive information about orientation for new students?",
+            "When is orientation?"
+        ],
+        "responses": [
+            "Information about the orientation program for new students will be communicated to you via email or through the University of Ghana's student portal approximately one month before the start of the academic year.",
+            "The exact dates and details of the orientation program will be provided in your admission letter. Keep an eye on your email and the university's official communication channels for updates.",
+            "The University of Ghana typically conducts orientation sessions for new students during the week before the start of classes. Please refer to the university's official website or contact the orientation office for the most accurate information."
+        ]
+      },
+      {
+        "tag": "admission_letter",
+        "patterns": [
+            "How can I access my admission letter online?",
+            "How can I download my admission letter online?"
+        ],
+        "responses": [
+            "You can access your admission letter by logging in to the University of Ghana's student portal using the credentials provided to you during the admission process. Once logged in, navigate to the 'Admission' section to view and download your admission letter.",
+            "The admission letter can be accessed and downloaded from the University of Ghana's official admission website. Use the login credentials provided in the admission notification to access your letter.",
+            "If you are unable to find or access your admission letter online, contact the admission office directly. They will assist you in retrieving a copy or provide alternative methods for accessing your admission letter."
+        ]
+      },
+      {
+        "tag": "Course_Registration",
+        "patterns": [
+            "How do I choose my courses for the upcoming semester?",
+            "which courses should i register?",
+            "how many courses should i register?"
+        ],
+        "responses": [
+            "Course selection is typically done through the University of Ghana's student portal. Log in to your account, navigate to the registration section, and follow the instructions for selecting your courses based on your program requirements.",
+            "Consult the course catalog and program requirements for your specific program of study. Make a list of the required courses and any electives or options available. Use this information to guide your course selection process.",
+            "Reach out to your academic advisor or department to seek guidance on course selection. They can provide valuableinsights and help you choose the appropriate courses for your program."
+        ]
+      },
+      {
+        "tag": "Course_change",
+        "patterns": [
+            "Can I change my major after being admitted?",
+            "Can I change my course after being admitted?",
+            "Can I defer my course after being admitted?"
+        ],
+        "responses": [
+            "Yes, it is possible to change your major after being admitted to the University of Ghana. However, the process and availability of changing majors may vary depending on the specific program and department. Contact your academic advisor or the admissions office for guidance on the procedure.",
+            "Changing your major is subject to certain conditions and restrictions. It is recommended to consult with your academic advisor or the department offering the desired major to understand the possibilities and requirements for switching programs.",
+            "The University of Ghana allows students to change their major within a specified timeframe. Contact the admissions office or the academic affairs office for detailed information and guidance on the process."
+        ]
+      },
+      {
+        "tag": "prerequisites",
+        "patterns": [
+            "Are there any prerequisites or placement tests for specific courses?",
+            "what are the prerequisite for my courses?"
+        ],
+        "responses": [
+            "Some courses at the University of Ghana may have prerequisites or require students to take placement tests. Consult the course catalog and program requirements to determine if any specific prerequisites or placement tests are necessary for the courses you are interested in.",
+            "Prerequisites and placement test requirements will be clearly stated in the course descriptions and program requirements. Carefully review the information provided to ensure you meet the necessary criteria for enrollment in specific courses.",
+            "For courses with prerequisites or placement tests, the University of Ghana may provide alternative options or remedial courses to fulfill the requirements. Contact the department offering the course or the academic affairs office for further guidance."
+        ]
+      },
+      {
+        "tag": "add_and_drop",
+        "patterns": [
+            "Can I add or drop courses after the registration period?",
+            "how do i drop a course?",
+            "can i drop a course?"
+        ],
+        "responses": [
+            "The University of Ghana usually allows a specific add/drop period after the initial course registration. During this period, you can add or drop courses through the student portal without incurring any penalties. Be sure to check the academic calendar or contact the academic affairs office for the exact dates.",
+            "Adding or dropping courses after the registration period may require approval from your academic advisor or the department offering the course. Reach out to them to discuss your options and seek guidance on the necessary procedures.",
+            "It is important to note that adding or dropping courses after the registration period may have implications on your academic progress, financial obligations, and graduation timeline. Consult with your academic advisor or the relevant office to understand the consequences and procedures involved."
+        ]
+      },
+      {
+        "tag": "credits",
+        "patterns": [
+            "How many credits should I take per semester?",
+            "How many credits am i supposed to take?",
+            "what are my credits?"
+        ],
+        "responses": [
+            "The number of credits you should take per semester may vary depending on your program of study and academic load. Refer to the program requirements or consult with your academic advisor to determine the recommended credit hours for your specific program.",
+            "Most undergraduate programs at the University of Ghana require students to take between 15 to 18 credit hours per semester. However, it is crucial to check with your academic advisor or department to ensure you meet the minimum credit requirements for your program.",
+            "The University of Ghana may have specific regulations regarding the maximum number of credits allowed per semester. It is important to consider factors such as course workload, extracurricular activities, and personal commitments when determining the appropriate credit hours to take."
+        ]
+      },
+      {
+        "tag": "online_course_registration",
+        "patterns": [
+            "What is the process for registering for courses online?",
+            "Can i register my courses online?",
+            "How do i register my courses online?"
+        ],
+        "responses": [
+            "Course registration is typically done through the University of Ghana's student portal. Log in to your account, navigate to the registration section, and follow the step-by-step instructions provided to select and enroll in your desired courses.",
+            "The University of Ghana may conduct online registration workshops or provide tutorial videos to guide students through the course registration process. Check the student portal or the university's academic resources for any available support materials.",
+            "It is important to be aware of the registration period specified by the university. Ensure that you log in to the student portal during the designated registration window to secure your preferred courses.",
+            "1. Access the MIS Portal: Visit the University of Ghana's official website and navigate to the MIS portal or student portal. This is where you'll typically find the course registration system. 2. Login: Use your student credentials to log in to the MIS portal. Your username and password will be provided to you by the university. 3. Course Selection: Once logged in, you should be able to access the course registration section. Here, you'll likely find information about the available courses, course schedules, and any prerequisites. 4. Select Courses: Choose the courses you want to register for based on your program requirements and academic goals. Make sure to consider prerequisites, course timings, and any restrictions. 5. dd Courses to Cart: Some registration systems allow you to add courses before finalizing your registration. This gives you a chance to review your selections before confirming."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Parallel lines have so much in common. It's a shame they'll never meet.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "Why did the bicycle fall over? Because it was two-tired.",
+          "Why don't oysters donate to charity? Because they're shellfish.",
+          "I only know 25 letters of the alphabet. I don't know y.",
+          "Want to hear a construction joke? Sorry, I'm still working on it."
+        ]
+      }
+    ]
+  }
