@@ -1160,7 +1160,314 @@
                   "Entry requirements for Bachelor of Science in Nursing (Distance Education):\nApplicants must be professional nurses who already have a Diploma in Nursing from a recognized Nursing Training College, with a Final Grade Point Average (FGPA) OF 2.5 or better."
               ]
           },
-      
+
+
+
+          
+            {
+              "tag": "college_health_sciences",
+              "patterns": [
+                "What programs are available in the College of Health Sciences?",
+                "Tell me about the programs offered in the College of Health Sciences.",
+                "List the departments and programs in the College of Health Sciences."
+              ],
+              "responses": [
+                "In the College of Health Sciences at the University of Ghana, the following programs are available:\n\n- University of Ghana Medical School: Bachelor of Medicine and Bachelor of Surgery\n- University of Ghana Dental School: Bachelor of Dental Surgery\n- School of Pharmacy: Doctor of Pharmacy (PharmD)\n- School of Biomedical and Allied Health Sciences: Bachelor of Science in Dietetics, Medical Laboratory, Occupational Therapy, Physiotherapy, Radiography\n- School of Nursing & Midwifery: Bachelor of Science in Nursing, Bachelor of Science in Midwifery\n- School of Public Health: Bachelor of Public Health in various specializations."
+              ]
+            },
+            {
+              "tag": "college_basic_applied_sciences",
+              "patterns": [
+                "What programs are offered in the College of Basic & Applied Sciences?",
+                "Tell me about the programs in the College of Basic & Applied Sciences.",
+                "List the groupings and programs in the College of Basic & Applied Sciences."
+              ],
+              "responses": [
+                "The College of Basic & Applied Sciences at the University of Ghana offers the following groupings and programs:\n\n- Group 1: Physical Sciences (Physics, Chemistry, Geophysics)\n- Group 2: Mathematical Sciences (Mathematics, Statistics, Actuarial Science, Computer Science, Biomathematics, Physics)\n- Group 3: Earth Sciences (Geology, Applied Geology, Applied Geophysics)\n- Group 4: Information Technology\n- Group 5: Biological Sciences (Animal Biology and Conservation Science, Biochemistry Cell and Molecular Biology, Nutrition, Food Science, Plant and Environmental Biology, Marine Science, Fisheries Science, Psychology, Microbiology)\n- Group 6: Agriculture (Animal Science, Crop Science, Soil Science, Agriculture Economics, Agribusiness, Agriculture Extension, Post-Harvest Technology)\n- Group 7: Family and Consumer Science (Food and Clothing Option)\n- Group 8: Family and Consumer Science (Family and Child Studies Option)\n- Group 9: Engineering Sciences (Material Science and Engineering, Computer Engineering, Biomedical Engineering, Food Process Engineering, Agriculture Engineering)\n- Group 10: Doctor of Veterinary Medicine"
+              ]
+            },
+            {
+              "tag": "college_humanities",
+              "patterns": [
+                "What programs can I find in the College of Humanities?",
+                "Tell me about the programs offered by the College of Humanities.",
+                "List the schools and programs in the College of Humanities."
+              ],
+              "responses": [
+                "In the College of Humanities at the University of Ghana, you can find the following programs:\n\n- University of Ghana Business School: Bachelor of Science in Business Administration\n- University of Ghana School of Law: Bachelor of Laws (LLB)\n- School of Arts: Bachelor of Arts in various departments (Religions, Philosophy and Classics, History, Archaeology and Heritage Studies)\n- School of Languages: Bachelor of Arts in various departments (English, French, Modern Languages, Linguistics)\n- School of Social Sciences: Bachelor of Arts in various departments (Economics, Political Science, Sociology, Geography and Resource Development, Social Work, Psychology)\n- School of Performing Arts: Bachelor of Fine Arts/Bachelor of Arts in various departments (Dance Studies, Theatre Arts, Music)"
+              ]
+            },
+            {
+              "tag": "college_education",
+              "patterns": [
+                "What are the programs available in the College of Education?",
+                "Tell me about the programs offered in the College of Education.",
+                "List the schools and programs in the College of Education."
+              ],
+              "responses": [
+                "The College of Education at the University of Ghana offers the following programs:\n\n- School of Information and Communication Studies: Bachelor of Arts in Information Studies\n- School of Education and Leadership: Bachelor of Arts/Bachelor of Science in Education (English, Linguistics, Information Studies, Psychology, Social Work, Sociology, Adult Education), Bachelor of Science in Education (Biology, Chemistry, Physics, Mathematics, Statistics), Bachelor of Education with various specialisms\n- School of Continuing and Distance Education: Bachelor of Science in Business Administration, Bachelor of Arts in various departments (Economics, Political Science, Sociology, Psychology, Information Studies, Adult Education and Human Resource Studies), Bachelor of Science in Information Technology, Bachelor of Science in Nursing (for professional nurses with a Diploma in Nursing)"
+              ]
+            },
+          
+          
+            
+              {
+                "tag": "cut_off_points",
+                "patterns": [
+                  "What are the cut-off points for the BSc. Biological Sciences program?",
+                  "What are the subject requirements for BSc. Earth Sciences?",
+                  "What is the cut-off point for BSc. Biomedical Engineering?"
+                ],
+                "responses": [
+                  "For the BSc. Biological Sciences program, the cut-off point is 20 (22) for the 1st Choice and 15 (17) for the 2nd Choice. The subject requirement is C6 in Chemistry.",
+                  "The subject requirements for BSc. Earth Sciences are a cut-off point of 24 and 16 (18) for the 1st and 2nd Choices respectively. Additionally, C6 in Chemistry & Physics is required.",
+                  "The cut-off point for BSc. Biomedical Engineering is 9(10) for regular admission and 12 for full-fee paying admission. The subject requirement is B3 in Elective Maths."
+                ]
+              },
+              {
+                "tag": "health_sciences_cut_off",
+                "patterns": [
+                  "What is the cut-off point for the Bachelor of Medicine and Bachelor of Surgery program?",
+                  "What are the cut-off points for BSc. Physiotherapy?",
+                  "What is the required cut-off for BSc. Nursing?"
+                ],
+                "responses": [
+                  "The cut-off point for the Bachelor of Medicine and Bachelor of Surgery program is 7.",
+                  "For BSc. Physiotherapy, the cut-off points are 14 and 13 for regular and full-fee paying admissions respectively.",
+                  "The required cut-off point for BSc. Nursing is 9."
+                ]
+              },
+              {
+                "tag": "education_cut_off",
+                "patterns": [
+                  "What are the cut-off points for BSc. Education?",
+                  "What is the cut-off point for BA. Education (English)?"
+                ],
+                "responses": [
+                  "The cut-off points for BSc. Education are 24.",
+                  "The cut-off point for BA. Education (English) is 24."
+                ]
+              },
+              {
+                "tag": "humanities_cut_off",
+                "patterns": [
+                  "What is the cut-off point for Bachelor of Laws?",
+                  "What are the cut-off points for Bachelor of Fine Arts?",
+                  "What is the cut-off point for Bachelor of Arts (Business/Science/ Vocational Background)?"
+                ],
+                "responses": [
+                  "The cut-off point for Bachelor of Laws is 7.",
+                  "The cut-off points for Bachelor of Fine Arts is 22.",
+                  "The cut-off point for Bachelor of Arts (Business/Science/ Vocational Background) is 12."
+                ]
+              },
+            
+              
+                {
+                  "tag": "contact_info",
+                  "patterns": [
+                    "How can I contact the Admissions Unit?",
+                    "What is the email address for the College of Health Sciences?",
+                    "How do I reach out to the College of Humanities?"
+                  ],
+                  "responses": [
+                    "You can contact the Admissions Unit at admissions@ug.edu.gh. Phone numbers: 0302 213820 ext 6018, 0302 213820 ext 2637. WhatsApp Number: 0200480344.",
+                    "The email address for the College of Health Sciences is academicaffairs@chs.edu.gh. You can also reach them by mail at P. O. Box KB 52, Korle-Bu, Accra. Phone numbers: 0268420215, 0550202911.",
+                    "To contact the College of Humanities, you can email them at cohacademic@ug.edu.gh. You can also send mail to P. O. Box LG 1173, Legon. Phone numbers: 0507178028, 0552899445, 0307080628."
+                  ]
+                },
+                {
+                  "tag": "college_contact",
+                  "patterns": [
+                    "How can I get in touch with the College of Basic & Applied Sciences?",
+                    "What is the contact information for the College of Education?"
+                  ],
+                  "responses": [
+                    "For the College of Basic & Applied Sciences, you can contact them at cbasadmissions@ug.edu.gh. Mail can be sent to P. O. Box LG 1195, Legon. Phone number: 020 645 0182.",
+                    "To reach out to the College of Education, you can email them at coeacademic@ug.edu.gh. Mail can be sent to P. O. Box LG 1181, Legon. Phone number: 0200088432."
+                  ]
+                },
+
+
+                
+                  {
+                    "tag": "application_info",
+                    "patterns": [
+                      "When does the academic year begin for undergraduate applications?",
+                      "Who is eligible to apply for undergraduate applications?",
+                      "What are the admission guidelines for the College of Health Sciences?"
+                    ],
+                    "responses": [
+                      "The academic year for undergraduate applications begins in September.",
+                      "All applicants who will be writing WASSCE in May/June 2022 are eligible to apply.",
+                      "There is direct admission of applicants into all programmes offered by the College of Health Sciences as first choice only. For second and third choices, applicants are strongly advised to choose courses from the College of Basic and Applied Sciences."
+                    ]
+                  },
+                  {
+                    "tag": "programme_admission",
+                    "patterns": [
+                      "How many choices can applicants select for the School of Physical and Mathematical Sciences and the School of Biological Sciences?",
+                      "What is the advice for applicants selecting B.Sc. Administration or Bachelor of Laws as their first choice?",
+                      "What are the requirements for entering the Bachelor of Arts programme?"
+                    ],
+                    "responses": [
+                      "Applicants can select up to four (4) choices in order of preference for the School of Physical and Mathematical Sciences and the School of Biological Sciences.",
+                      "Applicants selecting B.Sc. Administration or Bachelor of Laws as their first choice are strongly advised to select bouquets from the Bachelor of Arts programme as second choice to enhance their chances of gaining admission.",
+                      "For the Bachelor of Arts (BA) programme, applicants are required to select subjects from the list of bouquets provided. They must offer three (3) subjects at Level 100, two (2) subjects at Level 200 and Level 300, and either two (2) subjects or one (1) subject at Level 400."
+                    ]
+                  },
+                  {
+                    "tag": "admission_qualifications",
+                    "patterns": [
+                      "What is the admission level for holders of other qualifications like International Baccalaureate (IB), IGCSE, and the American Grade 12 examinations?",
+                      "When did the University of Ghana stop admitting applicants with the West African Examination Council’s Ordinary and Advanced Level Certificates?"
+                    ],
+                    "responses": [
+                      "Holders of other qualifications including International Baccalaureate (IB), IGCSE, and the American Grade 12 examinations which hitherto were admitted to Level 200, will be admitted to Level 100.",
+                      "The University of Ghana ceased admitting applicants with the West African Examination Council’s Ordinary and Advanced Level Certificates since the 2007/2008 academic year."
+                    ]
+                  },
+                  {
+                    "tag": "application_fee",
+                    "patterns": [
+                      "How much is the non-refundable application processing fee?",
+                      "What are the payment options for the application processing fee?"
+                    ],
+                    "responses": [
+                      "All applicants are expected to pay a non-refundable application processing fee of US$110.00.",
+                      "The fee can be paid online as part of the application process or wire transferred into the University of Ghana ECOBANK Account. Payments in Ghana can be made in cash to the University of Ghana Forex Account at Ecobank. International transfers can also be made through Ecobank using the provided account numbers."
+                    ]
+                  },
+                  {
+                    "tag": "submission_requirements",
+                    "patterns": [
+                      "What documents should be attached to the application form before submission?",
+                      "Is proof of payment required for application processing?"
+                    ],
+                    "responses": [
+                      "The pay-in-slips together with applicants certificates/result slips should be scanned and attached to the application form before submission online. The certificates/results slips should be scanned into one PDF or WORD document and attached to the application form.",
+                      "Yes, no application will be processed without proof of payment of the fee."
+                    ]
+                  },
+                
+                
+                  
+                    {
+                      "tag": "sub_degree_admissions",
+                      "patterns": [
+                        "When are the applications open for sub-degree programmes?",
+                        "What are the available sub-degree programmes?",
+                        "What are the entry requirements for diploma programmes?"
+                      ],
+                      "responses": [
+                        "Applications are open for the admission of prospective applicants into certificate and various Diploma programmes for the 2022/2023 academic year.",
+                        "The available sub-degree programmes are Certificate in English Proficiency and several Diploma programmes including Diploma in Accounting, Diploma in Public Administration, Diploma in Librarianship, Diploma in Adult Education, and Diploma in Youth and Development (CYP).",
+                        "Applicants must satisfy the minimum requirements including passes (A-D) in six (6) subjects, including English Language and Mathematics for SSSCE holders. WASSCE holders need passes (A1-D7) in six (6) subjects, including English Language and Mathematics. Additionally, relevant passes are required for the area of specialization."
+                      ]
+                    },
+                    {
+                      "tag": "application_info",
+                      "patterns": [
+                        "How should Ghanaian applicants obtain University of Ghana online application E-VOUCHERS?",
+                        "How should Ghanaians applying from abroad proceed with the application?",
+                        "What is the non-refundable application processing fee?"
+                      ],
+                      "responses": [
+                        "Ghanaian applicants can obtain University of Ghana online application E-VOUCHERS for GH¢200.00 at several banks including Ecobank, HFC Bank, ADB, GCB Bank, Zenith Bank, and more. After submitting the application online, the e-voucher should be kept safely for future reference.",
+                        "Ghanaians applying from abroad should visit the University’s website at http://admission.ug.edu.gh and follow the instructions provided.",
+                        "All applicants are expected to pay a non-refundable application processing fee of US$110.00. This fee can be paid directly or wire transferred into the University of Ghana ECOBANK Account."
+                      ]
+                    },
+                    {
+                      "tag": "payment_details",
+                      "patterns": [
+                        "What are the details of the University of Ghana ECOBANK Account for payment?",
+                        "Can applicants pay the application processing fee with a credit card?"
+                      ],
+                      "responses": [
+                        "Details of the University of Ghana ECOBANK Account for payment:\nAccount Name: University of Ghana Foreign Students Fees\nAccount Number: 2441000716652\nBank Details: Ecobank Ghana Limited, Legon Branch\nSwift: ECOCGHAC",
+                        "Yes, applicants can make payment with a Credit Card on the GT payment platform."
+                      ]
+                    },
+                    {
+                      "tag": "submission_requirements",
+                      "patterns": [
+                        "What documents should be attached to the online application form before submission?",
+                        "Is proof of payment required for the application to be processed?"
+                      ],
+                      "responses": [
+                        "Relevant certificates are to be scanned and attached to the online application form. The pay-in-slips together with applicants’ certificates/result slips should be scanned into one PDF or WORD document and attached to the application form before submission.",
+                        "Yes, no application will be processed without proof of payment of the fee."
+                      ]
+                    },
+                    {
+                      "tag": "application_deadline",
+                      "patterns": [
+                        "When is the deadline for submitting applications for Diploma Programmes?",
+                        "When must applications for Diploma Programmes be submitted?"
+                      ],
+                      "responses": [
+                        "Applications for Diploma Programmes must be submitted until WAEC Results are released."
+                      ]
+                    },
+
+                    
+                      {
+                        "tag": "undergrad_admissions",
+                        "patterns": [
+                          "What are the requirements for undergraduate admissions for the 2023/2024 academic year?",
+                          "What is the minimum Final Grade Point required for admission to the University of Ghana?",
+                          "What is the minimum Final Grade Point for admission to the University of Ghana Medical School and Dental School?"
+                        ],
+                        "responses": [
+                          "For undergraduate admissions for the 2023/2024 academic year, applicants must have a Final Grade Point of at least 3.0. For admission to the University of Ghana Medical School and the University of Ghana Dental School, an applicant must have a Final Grade Point of at least 3.25.",
+                          "The minimum Final Grade Point required for admission to the University of Ghana is at least 3.0.",
+                          "For admission to the University of Ghana Medical School and the University of Ghana Dental School, the minimum Final Grade Point required is at least 3.25."
+                        ]
+                      },
+                      {
+                        "tag": "admission_level",
+                        "patterns": [
+                          "At what level will admissions be for international applicants and Ghanaians with a foreign background?",
+                          "What will be the entry level for international applicants and Ghanaians with a foreign background?"
+                        ],
+                        "responses": [
+                          "Admissions for international applicants and Ghanaians with a foreign background will be to Level 100."
+                        ]
+                      },
+                    
+                                  
+                      
+                        {
+                          "tag": "mature_access_course",
+                          "patterns": [
+                            "When does the registration for the University of Ghana mature access course for the 2023/2024 academic year begin and end?",
+                            "What are the entry requirements for the mature access course?",
+                            "How can applicants register for the University of Ghana Access Course?",
+                            "What are the dates for the Access Course?",
+                            "Where can I find further information about the mature access course?"
+                          ],
+                          "responses": [
+                            "The registration for the University of Ghana mature access course for the 2023/2024 academic year starts from Monday, April 3 and ends on Friday, May 26, 2023.",
+                            "To be eligible, applicants must be at least 25 years old at the time of application and provide proof of age with the ECOWAS/National ID Card or any legitimate documentary proof of date of birth which is at least 5 years old. They must also register for, attend, and complete the University of Ghana Access Course and pass the Mature Students’ Entrance Examination conducted by the University.",
+                            "Applicants can make payment for the Access Course and Entrance Examination (GH¢500.00) into UG Learning Centre Account number 1441002010444 at any branch of ECOBANK Ghana Limited. After payment, they should register online on the University of Ghana Website or through https://apply.ug.edu.gh/admissions/mature. Only those who pass the entrance examination will be eligible to purchase the e-voucher to access the University’s online application form.",
+                            "The Access Course is scheduled to run from April 15 to June 11, 2023. The course will be conducted on the following dates: April 15-16, April 22-23, April 29-30, May 6-7, May 13-14, May 20-21, May 27-28, June 3-4, and June 10-11.",
+                            "For further information about the mature access course, applicants can visit the University’s website: www.ug.edu.gh or contact the College Academic Office at 0503899803, 0552996775, 0264410136, or email coeacademic@ug.edu.gh. They can also contact the Department of Distance Education at 0303938855, 0302956122, or email dde@ug.edu.gh."
+                          ]
+                        },
+                        {
+                          "tag": "learning_centre_contacts",
+                          "patterns": [
+                            "Can you provide contact information for specific learning centers?",
+                            "How can I reach out to the University's learning centers?"
+                          ],
+                          "responses": [
+                            "Certainly, here are the contact details for some of the University's learning centers:\nAccra: 0303944582, 0303970282\nTsito/Ho: 0201885987, 0249528434\nTema: 0244818069\nKoforidua: 0342290824, 0243654839, 0244771933\nTakoradi: 0203333233\nTamale: 0244045270\nKumasi: 0244743510\nBolgatanga: 0205191313\nSunyani: 0352027153, 0352026734, 0244453440\nCape Coast: 0332132100\nWa: 0206982380"
+                          ]
+                        },
+                      
+                                 
+                  
       
     
       {
