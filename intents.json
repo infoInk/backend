@@ -233,6 +233,937 @@
         ]
       },
       {
+        "tag": "application",
+        "patterns": [
+            "How much does the application fee cost?",
+            "what is the cost of application?",
+            "How much is the application fee?"
+        ],
+        "responses": [
+            "The application fee is reviewed periodically. Presently the application fee is GH¢200.00 for Ghanaians and US$110.00 for international students and Ghanaians living abroad.",
+            "The application fee undergoes regular assessments. At the moment, the application fee stands at GH¢200.00 for Ghanaian citizens and US$110.00 for international students and Ghanaians residing abroad.",
+            "The application fee undergoes regular assessments. At the moment, the application fee stands at GH¢200.00 for Ghanaian citizens and US$110.00 for international students and Ghanaians residing overseas."
+        ]
+      },
+      {
+        "tag": "application_evoucher",
+        "patterns": [
+            "Where can i get the University of Ghana application e-vouchers to buy?",
+            "From where can e-vouchers for University of Ghana applications be acquired?",
+            "Where can i purchase the University of Ghana application e-vouchers to buy?",
+            "Where can i buy the University of Ghana application e-vouchers to buy?"
+        ],
+        "responses": [
+            "The e-voucher can be purchased from various banks including Ecobank, Agricultural Development Bank, Republic Bank, Prudential Bank, Fidelity Bank, Universal Merchant Bank, GCB Bank, Consolidated Bank Ghana (CBG), and Zenith Bank. Additionally, it's possible to acquire the e-voucher using the Momo short code *187*18# on all mobile networks.",
+            "You have the choice to obtain the e-voucher from various banks such as Ecobank, Agricultural Development Bank, Republic Bank, Prudential Bank, Fidelity Bank, Universal Merchant Bank, GCB Bank, Consolidated Bank Ghana (CBG), and Zenith Bank. Additionally, you can opt to purchase the e-voucher through the Momo short code *187*18# accessible on all networks."
+        ]
+      },
+      {
+        "tag": "Nov_Dec",
+        "patterns": [
+            "Do you admit students with Nov/Dec results?",
+            "Do you accept students with Nov/Dec results?"
+            
+        ],
+        "responses": [
+          "Yes, we do.",
+          "Certainly, we admit students who possess NOV/DEC examination results.",
+          "Yes, we do admit students who have NOV/DEC examination results."
+        ]
+      },
+      {
+        "tag": "wassce",
+        "patterns": [
+            "Do I have to enter my WASSCE results when applying?",
+            "would I have to type in my WASSCE results when applying?",
+            "do I have to type in my WASSCE results when applying?",
+            "should I have to submit my WASSCE results when applying?",
+            "Do I have to include my WASSCE results when applying?"
+            
+        ],
+        "responses": [
+          "Yes, we do.",
+          "Certainly, we admit students who possess NOV/DEC examination results.",
+          "Yes, we do admit students who have NOV/DEC examination results."
+        ]
+      },
+        {
+            "tag": "application_fee",
+            "patterns": [
+                "How much does the application fee cost?",
+                "What is the cost of the application fee?",
+                "How expensive is the application fee?"
+            ],
+            "responses": [
+                "The application fee is reviewed periodically. Presently the application fee is GH¢200.00 for Ghanaians and US$110.00 for international students and Ghanaians living abroad."
+            ]
+        },
+        {
+            "tag": "multiple_results",
+            "patterns": [
+                "Can one apply with more than one set of results?",
+                "Is it possible to submit multiple sets of results?",
+                "How many sets of results can I apply with?"
+            ],
+            "responses": [
+                "Yes. You can apply with up to 3 sets of results."
+            ]
+        },
+        {
+            "tag": "application_forms_deadline",
+            "patterns": [
+                "Can the application forms get finished before the deadline?",
+                "Is it possible for the application forms to run out before the deadline?",
+                "Should I be concerned about the application forms running out?"
+            ],
+            "responses": [
+                "No. Please note that the e-voucher is generated from the Banks’ system and cannot get finished."
+            ]
+        },
+        {
+            "tag": "passport_photograph_background",
+            "patterns": [
+                "What should the background colour of the passport photograph be?",
+                "Is there a specific background colour for the passport photograph?",
+                "What background is allowed for the passport photograph?"
+            ],
+            "responses": [
+                "The background colour of the passport photograph should be white."
+            ]
+        },
+        {
+            "tag": "visit_application_document",
+            "patterns": [
+                "Can I visit my application document after I have finished filling the form online? If so, till when?",
+                "Is it possible to access my application document once it's completed?",
+                "When can I view my application document after submission?"
+            ],
+            "responses": [
+                "Yes. Until the May/June WASSCE results are published, you can go back to your application form as many times as possible, either to view or to make changes."
+            ]
+        },
+        {
+            "tag": "difficulty_logging_in",
+            "patterns": [
+                "What do I do if I have difficulty logging in?",
+                "How can I resolve login issues?",
+                "I'm having trouble logging in, what should I do?"
+            ],
+            "responses": [
+                "Try logging in after 8 p.m. or late at night when the number of people trying to log in will have reduced."
+            ]
+        },
+        {
+            "tag": "distance_education_application",
+            "patterns": [
+                "Is the application process for Distance Education the same as for programmes on the main campus?",
+                "Do I follow the same application process for Distance Education as for regular programs?",
+                "Is the application procedure different for Distance Education?"
+            ],
+            "responses": [
+                "Yes, it is."
+            ]
+        },
+        {
+            "tag": "application_e_vouchers",
+            "patterns": [
+                "Where can one get the University of Ghana application e-vouchers to buy?",
+                "Which banks provide the application e-vouchers?",
+                "How can I purchase the University of Ghana application e-voucher?"
+            ],
+            "responses": [
+                "You can purchase the e-voucher from any of the following banks:\nEcobank\nAgricultural Development Bank\nRepublic Bank\nPrudential Bank\nFidelity Bank\nUniversal Merchant Bank\nGCB Bank\nConsolidated Bank Ghana (CBG)\nZenith Bank\nYou can also purchase e-voucher using the Momo short code *187*18# on all networks."
+            ]
+        },
+        {
+            "tag": "nov_dec_results_admission",
+            "patterns": [
+                "Do you admit students with Nov/Dec results?",
+                "Are applicants with Nov/Dec results eligible for admission?",
+                "Can I apply with Nov/Dec results?"
+            ],
+            "responses": [
+                "Yes, we do."
+            ]
+        },
+        {
+            "tag": "may_june_wassce_eligibility",
+            "patterns": [
+                "I am writing WASSCE in May/June this year. Can I apply?",
+                "Is it possible to apply with May/June WASSCE results of the current year?",
+                "Can I submit my application if I will be taking the WASSCE in May/June?"
+            ],
+            "responses": [
+                "Yes. Anyone writing WASSCE in May/June this year is eligible to apply."
+            ]
+        },
+        {
+            "tag": "nov_dec_results_eligibility",
+            "patterns": [
+                "I will be writing NOV/DEC this year. Can I apply?",
+                "Can I submit an application if I will be taking the NOV/DEC exams this year?",
+                "Is it possible to apply with pending NOV/DEC results?"
+            ],
+            "responses": [
+                "No. Admissions will be released before the NOV/DEC results are out."
+            ]
+        },
+        {
+            "tag": "total_wassce_results",
+            "patterns": [
+                "How many WASSCE results does University of Ghana take in total?",
+                "What is the maximum number of WASSCE results considered for admission?",
+                "How many sets of WASSCE results are allowed?"
+            ],
+            "responses": [
+                "University of Ghana takes a total of three sittings\n- Accepts all Past WASSCE & SSCE results\n- Accepts a combination May/June & Nov/Dec Results\n- Accepts a combination of WASSCE & SSCE\n- Awaiting candidates can indicate their past WASSCE/SSCE results if they have one."
+            ]
+        },
+        {
+            "tag": "nov_dec_results_application",
+            "patterns": [
+                "I will be writing NOV/DEC this year, can I apply for admissions?",
+                "Is it possible to apply with NOV/DEC results?",
+                "Can I submit my application with pending NOV/DEC results?"
+            ],
+            "responses": [
+                "Unfortunately, you cannot as the application will be processed before NOV/DEC results are released by WAEC."
+            ]
+        },
+        {
+            "tag": "wassce_results_entry",
+            "patterns": [
+                "Do I have to enter my WASSCE results when applying?",
+                "Is it necessary to input my WASSCE results during the application process?",
+                "Should I provide my WASSCE grades on the application form?"
+            ],
+            "responses": [
+                "No. There is no need to enter your WASSCE results; instead, you are to enter your Index number, year, and month you wrote the WASSCE."
+            ]
+        },
+        {
+            "tag": "gender_cutoff_points",
+            "patterns": [
+                "Why are there different cut off points for males and females?",
+                "What is the reason for having separate cut off points for males and females?",
+                "Why are the admission thresholds different based on gender?"
+            ],
+            "responses": [
+                "This is due to the affirmative action policy to encourage more females enrolling in tertiary education."
+            ]
+        },
+        {
+            "tag": "diploma_holders_acceptance",
+            "patterns": [
+                "Do you accept Diploma Holders from other tertiary institutions?",
+                "Can I apply with a Diploma from a different university?",
+                "Are Diploma holders from other institutions eligible for admission?"
+            ],
+            "responses": [
+                "No. We only accept Diploma holders from the University of Ghana or as determined by the University. However, we accept HND holders from recognized Technical Universities into similar fields."
+            ]
+        },
+        {
+            "tag": "nursing_diploma_program",
+            "patterns": [
+                "Does the University of Ghana run a Diploma programme in Nursing?",
+                "Is there a Diploma program in Nursing offered by the University of Ghana?",
+                "Can I pursue a Diploma in Nursing at the University?"
+            ],
+            "responses": [
+                "No. Diploma programs in Nursing are run by the various Nursing Training Colleges."
+            ]
+        },
+        {
+            "tag": "foreign_results_upload",
+            "patterns": [
+                "I am applying with foreign results aside WASSCE, do I have to scan and upload the results?",
+                "Are scanned copies of foreign results required during the application process?",
+                "Should I attach scanned foreign results to my application?"
+            ],
+            "responses": [
+                "Yes. You have to scan and attach your results slip and indicate the details of the results."
+            ]
+        },
+        {
+            "tag": "application_form_submission",
+            "patterns": [
+                "Do I have to post my applications forms to the University after application?",
+                "Is sending the application form by post required?",
+                "Should I mail the completed application forms to the University?"
+            ],
+            "responses": [
+                "Applications are strictly done online."
+            ]
+        },
+        {
+            "tag": "admission_confirmation",
+            "patterns": [
+                "How do I know I have gained admission into the University of Ghana?",
+                "What is the confirmation process for successful admission?",
+                "How can I confirm that I have been admitted?"
+            ],
+            "responses": [
+                "Successful applicants will receive a text message based on the contact details they provided and if not, they should check for their status on the University Website."
+            ]
+        },
+        {
+            "tag": "post_admission_steps",
+            "patterns": [
+                "After I have gained admission to University of Ghana, what is the next step for me?",
+                "What should I do after receiving an admission offer from University of Ghana?",
+                "What are the subsequent steps following admission?"
+            ],
+            "responses": [
+                "Download your provisional admission letter by entering your Serial Number and Pin.\nRead carefully the instructions on your admission letter and when duly satisfied, you can make payment of your fees at the bank.\nAfter making the payment, be checking from the University website for any new announcement regarding accommodation, orientation, registration, matriculation, and lectures."
+            ]
+        },
+        {
+            "tag": "application_changes",
+            "patterns": [
+                "Can I make changes after I have submitted my application online?",
+                "Is it possible to edit the application after submission?",
+                "Can I update my application details after I've already submitted?"
+            ],
+            "responses": [
+                "Yes, you can. The University will also reopen the application portal for a few days to enable applicants to review their application after the release of the May/June WASSCE results.\nApplicants must ensure that their Biographical Data, WAEC Index Number, Year, and month of the examination are correct."
+            ]
+        },
+        {
+            "tag": "fee_payment_difference",
+            "patterns": [
+                "What is the difference between regular and fee-paying?",
+                "How does fee-paying differ from regular admission?",
+                "Can you explain the distinction between fee-paying and regular admission?"
+            ],
+            "responses": [
+                "The difference is the amount of fees paid to the University. A student is considered admission into a fee-paying programme if he or she did not meet the regular cutoff point."
+            ]
+        },
+        {
+            "tag": "foreign_ghanaian_student_fees",
+            "patterns": [
+                "Do Ghanaians with foreign educational backgrounds pay foreign student fees?",
+                "Are Ghanaians with foreign education considered as international students?",
+                "What fees do Ghanaians with foreign education pay?"
+            ],
+            "responses": [
+                "No. Ghanaians with foreign educational backgrounds pay regular Ghanaian fees once they are able to prove that they are Ghanaians."
+            ]
+        },
+        {
+            "tag": "admission_deferment",
+            "patterns": [
+                "I have gained admission to University of Ghana but will not be able to come to school this year, is my admission valid for the following year?",
+                "Can I defer my admission to the next academic year?",
+                "What if I can't attend this year after gaining admission?"
+            ],
+            "responses": [
+                "No. You have to pay the required fees and write a letter to the University requesting for deferment of your admission."
+            ]
+        },
+        {
+            "tag": "accra_to_legon_campus_transfer",
+            "patterns": [
+                "I gained admission into the Accra City Campus. Can I change to the Legon Campus in the future?",
+                "Is it possible to transfer from Accra City Campus to Legon Campus?",
+                "Can I switch my campus from Accra to Legon after admission?"
+            ],
+            "responses": [
+                "No please."
+            ]
+        },
+        {
+            "tag": "general_entry_requirements",
+            "patterns": [
+                "What are the general entry requirements for admission?",
+                "What are the basic admission criteria?",
+                "What do I need to qualify for admission?"
+            ],
+            "responses": [
+                "An applicant for admission to a degree programme in the University of Ghana must have at least credits (A1 - C6 in WASSCE or A– D in SSSCE) in English, Core Mathematics and Integrated Science (for Science applicants) or Social Studies (for non-Science applicants).\nAlso, applicants must have three elective subjects in Science for those applying to Science or Agriculture related disciplines or three elective subjects in General Arts/Business for applicants applying to non-Science related disciplines, with the total aggregate not exceeding 24 for full-time programmes. For Distance Learning, the total aggregate should not exceed 30.\nIn addition, Science applicants should have at least a grade C6 in WASSCE (D in SSSCE) in Social Studies/Life Skills and non-Science applicants should also have at least a grade C6 in WASSCE (D in SSSCE) in Integrated Science/Core Science."
+            ]
+        },
+        {
+            "tag": "integrated_science_social_studies",
+            "patterns": [
+                "Do you use Integrated Science or Social Studies in calculating the aggregate for Science students?",
+                "Which subject is used for calculating the aggregate for Science students, Integrated Science or Social Studies?",
+                "Is Integrated Science or Social Studies considered for Science students' aggregate?"
+            ],
+            "responses": [
+                "In the calculation of aggregates, Integrated Science will be used for Science programmes and Social Studies for non-science programmes. However, all applicants must have at least credit passes in both Integrated Science and Social Studies."
+            ]
+        },
+        {
+            "tag": "home_economics_programs",
+            "patterns": [
+                "Can a Home Economics student apply for Bsc Dietetics or Biological Sciences?",
+                "Are Home Economics students eligible for Bsc Dietetics or Biological Sciences?",
+                "Can Home Economics students pursue Bsc Dietetics or Biological Sciences?"
+            ],
+            "responses": [
+                "No. Dietetics is a programme for pure science students and is run by the School of Biomedical & Allied Health Sciences, College of Health Sciences. The entry requirements are Credit passes in Three (3) Electives comprising Chemistry, Physics and either Biology or Elective Mathematics."
+            ]
+        },
+        {
+            "tag": "home_economics_nursing",
+            "patterns": [
+                "Can Home Economics students apply for Nursing or Midwifery?",
+                "Are Home Economics students eligible for Nursing or Midwifery programs?",
+                "Can students from Home Economics background pursue Nursing or Midwifery?"
+            ],
+            "responses": [
+                "Yes, they can."
+            ]
+        },
+        {
+            "tag": "business_programs",
+            "patterns": [
+                "What programs are available to Business students?",
+                "Can you list the programs that Business students can apply for?",
+                "What options are open to students with a Business background?"
+            ],
+            "responses": [
+                "Business students can apply for the following programmes:\n- B.Sc. Administration\n- Bachelor of Laws (LLB)\n- Bachelor of Arts"
+            ]
+        },
+        {
+            "tag": "business_administration_admission",
+            "patterns": [
+                "Do you favour Business students when admitting into Business Administration?",
+                "Is there a preference for Business students in Business Administration admission?",
+                "Are Business students given priority for Business Administration?"
+            ],
+            "responses": [
+                "No, we do not. The entry requirement into Business Administration is ‘Any Three Elective subjects.\nThe background does not matter once you meet the cutoff point."
+            ]
+        },
+        {
+            "tag": "b_a_option_business_school",
+            "patterns": [
+                "Is there a B. A. option at the Business School?",
+                "Does the Business School offer a Bachelor of Arts (B. A.) option?",
+                "Can I pursue a B. A. program at the Business School?"
+            ],
+            "responses": [
+                "Yes. From the 2016/2017 academic year, the Bachelor of Arts in Administration (B. A. Admin) programme has been reintroduced."
+            ]
+        },
+        {
+            "tag": "admission_screening_process",
+            "patterns": [
+                "Do I have to go through any screening process before I gain admission?",
+                "Is there a screening procedure for admission?",
+                "What kind of screening is required before admission?"
+            ],
+            "responses": [
+                "A programme like Bachelor of Fine Arts requires you to attend an audition before gaining admission.\nSome programmes in the College of Health Sciences also require applicants to write entrance examinations and/or attend an interview.\nThe list of successful applicants invited for screening will be published on the university website."
+            ]
+        },
+        {
+            "tag": "fee_paying_programme_cutoff",
+            "patterns": [
+                "Can I gain admissions into a fee-paying programme if I fall below the admissions cut off point for my programme of choice?",
+                "Is it possible to be admitted to a fee-paying program with an aggregate below the cutoff?",
+                "Can I be admitted into a fee-paying program if my aggregate is low?"
+            ],
+            "responses": [
+                "Yes, an applicant may gain admission into a fee-paying programme for failing to meet the required admissions cut off point."
+            ]
+        },
+        {
+            "tag": "aggregate_more_than_24",
+            "patterns": [
+                "My aggregate is more than 24 and I have all the required credit passes (C6), can I apply for a regular programme or as fee paying?",
+                "Is it possible to apply for regular admission or as a fee-paying student with an aggregate above 24?",
+                "Can I choose between regular admission and fee-paying admission with an aggregate exceeding 24?"
+            ],
+            "responses": [
+                "No please, any aggregate more than 24 will qualify you for Distance Education, which is run on weekends in all the regional learning centers and is the same four-year degree programme."
+            ]
+        },
+        {
+            "tag": "agric_science_veterinary_medicine",
+            "patterns": [
+                "Can Agric Science students apply for the Doctor of Veterinary Medicine programme?",
+                "Are students with an Agricultural Science background eligible for the Doctor of Veterinary Medicine program?",
+                "Can I pursue the Doctor of Veterinary Medicine program with a background in Agricultural Science?"
+            ],
+            "responses": [
+                "No please, the requirement for this programme is Biology, Chemistry and either Physics or Elective Mathematics."
+            ]
+        },
+        {
+            "tag": "distance_learning_programs",
+            "patterns": [
+                "What programmes do you offer for Distance Learning?",
+                "Can you list the programs available for Distance Learning?",
+                "Which programs are offered through Distance Learning?"
+            ],
+            "responses": [
+                "Programmes offered at Distance Learning are:\n- B.Sc. Administration\n- Bachelor of Arts\n- B. Sc. Information Technology\n- B. Sc. Nursing (For professional nurses only)."
+            ]
+        },
+        {
+            "tag": "accra_city_campus_programs",
+            "patterns": [
+                "What programmes do you offer at the Accra City Campus?",
+                "Can you list the programs available at the Accra City Campus?",
+                "Which programs are offered at the Accra City Campus?"
+            ],
+            "responses": [
+                "Programmes on offer at the Accra City Campus are:\n- B.Sc. Administration\n- Bachelor of Arts"
+            ]
+        },
+        {
+            "tag": "program_change_after_first_year",
+            "patterns": [
+                "Can I change my programme after the first year?",
+                "Is it possible to switch programs after completing the first year?",
+                "Can I transfer to a different program after the initial year?"
+            ],
+            "responses": [
+                "No, you cannot."
+            ]
+        },
+
+
+
+        
+          {
+              "tag": "medicine_surgery",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Medicine and Bachelor of Surgery?",
+                  "Can you provide the admission criteria for MBChB?",
+                  "What are the prerequisites for studying Medicine and Surgery?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Medicine and Bachelor of Surgery (MBChB):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Chemistry and any two from Physics, Biology and Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "dental_surgery",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Dental Surgery?",
+                  "Can you provide the admission criteria for BDS?",
+                  "What are the prerequisites for studying Dental Surgery?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Dental Surgery (BDS):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Chemistry and any two from Physics, Biology and Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "pharmacy",
+              "patterns": [
+                  "What are the entry requirements for Doctor of Pharmacy?",
+                  "Can you provide the admission criteria for PharmD?",
+                  "What are the prerequisites for studying Pharmacy?"
+              ],
+              "responses": [
+                  "Entry requirements for Doctor of Pharmacy (PharmD):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Chemistry, Biology and either Physics or Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "dietetics_medical_laboratory",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Dietetics?",
+                  "Can you provide the admission criteria for Dietetics program?",
+                  "What are the prerequisites for studying Medical Laboratory Science?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Dietetics:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Chemistry, Physics and either Biology or Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "occupational_physio_radiography",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Occupational Therapy?",
+                  "Can you provide the admission criteria for Occupational Therapy?",
+                  "What are the prerequisites for studying Physiotherapy?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Occupational Therapy:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Chemistry, Physics and either Biology or Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "respiratory_therapy",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Respiratory Therapy?",
+                  "Can you provide the admission criteria for Respiratory Therapy?",
+                  "What are the prerequisites for studying Respiratory Therapy?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Respiratory Therapy:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Chemistry, Physics and either Biology or Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "nursing_options",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Nursing with options?",
+                  "Can you provide the admission criteria for Nursing program with options?",
+                  "What are the prerequisites for studying Nursing with various options?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Nursing with options:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in three electives from any specified combinations"
+              ]
+          },
+          {
+              "tag": "midwifery",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Midwifery?",
+                  "Can you provide the admission criteria for Midwifery program?",
+                  "What are the prerequisites for studying Midwifery?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Midwifery:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in three electives from any specified combinations"
+              ]
+          },
+          {
+              "tag": "public_health",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Public Health?",
+                  "Can you provide the admission criteria for Public Health program?",
+                  "What are the prerequisites for studying Public Health?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Public Health:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in three electives from any specified combinations"
+              ]
+          },
+          {
+              "tag": "mathematical_physical_sciences",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Physical Sciences?",
+                  "Can you provide the admission criteria for Physical Sciences program?",
+                  "What are the prerequisites for studying Physical Sciences?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Physical Sciences:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Physics, Chemistry, and Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "mathematical_sciences",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Mathematical Sciences?",
+                  "Can you provide the admission criteria for Mathematical Sciences program?",
+                  "What are the prerequisites for studying Mathematical Sciences?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Mathematical Sciences:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Elective Mathematics and any two subjects with at least a B3 in Elective Mathematics and Core Mathematics"
+              ]
+          },
+          {
+              "tag": "earth_sciences",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Earth Sciences?",
+                  "Can you provide the admission criteria for Earth Sciences program?",
+                  "What are the prerequisites for studying Earth Sciences?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Earth Sciences:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Chemistry and any two of Physics, Biology/Geography and Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "information_technology",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Information Technology?",
+                  "Can you provide the admission criteria for Information Technology program?",
+                  "What are the prerequisites for studying Information Technology?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Information Technology:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in any three subjects, with at least a B3 in Core Mathematics"
+              ]
+          },
+          {
+              "tag": "biological_sciences",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Biological Sciences?",
+                  "Can you provide the admission criteria for Biological Sciences program?",
+                  "What are the prerequisites for studying Biological Sciences?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Biological Sciences:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Chemistry, Physics, and Biology"
+              ]
+          },
+          {
+              "tag": "psychology",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Psychology?",
+                  "Can you provide the admission criteria for Psychology program?",
+                  "What are the prerequisites for studying Psychology?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Psychology:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Biology and Elective Mathematics and any one of Physics and Chemistry"
+              ]
+          },
+          {
+              "tag": "agriculture",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Agriculture?",
+                  "Can you provide the admission criteria for Agriculture program?",
+                  "What are the prerequisites for studying Agriculture?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Agriculture:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Chemistry and any two of Physics, Biology/Agriculture Science, Geography and Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "family_consumer_sciences_food_clothing",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Family & Consumer Sciences (Food and Clothing Option)?",
+                  "Can you provide the admission criteria for Family & Consumer Sciences (Food and Clothing) program?",
+                  "What are the prerequisites for studying Family & Consumer Sciences with Food and Clothing Option?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Family & Consumer Sciences (Food and Clothing Option):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Home Science Background: Credit passes in Management in Living and Chemistry, and either Food and Nutrition or Textile and Clothing\nScience Background: Credit passes in Chemistry and any two Elective Subjects"
+              ]
+          },
+          {
+              "tag": "family_consumer_sciences_family_child_studies",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Family & Consumer Sciences (Family and Child Studies Option)?",
+                  "Can you provide the admission criteria for Family & Consumer Sciences (Family and Child Studies) program?",
+                  "What are the prerequisites for studying Family & Consumer Sciences with Family and Child Studies Option?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Family & Consumer Sciences (Family and Child Studies Option):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit pass in Management in Living and any two of the following: Food and Nutrition, Textiles and Clothing, General Knowledge in Art, Biology or Chemistry."
+              ]
+          },
+          {
+              "tag": "engineering_sciences_agriculture",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Engineering Sciences (Agriculture Engineering Option)?",
+                  "Can you provide the admission criteria for Engineering Sciences (Agriculture Engineering) program?",
+                  "What are the prerequisites for studying Engineering Sciences with Agriculture Engineering Option?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Engineering Sciences (Agriculture Engineering Option):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Physics, Chemistry and Elective Mathematics, with at least a B3 in Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "engineering_sciences_biomedical",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Engineering Sciences (Biomedical Engineering Option)?",
+                  "Can you provide the admission criteria for Engineering Sciences (Biomedical Engineering) program?",
+                  "What are the prerequisites for studying Engineering Sciences with Biomedical Engineering Option?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Engineering Sciences (Biomedical Engineering Option):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Physics, Chemistry and Elective Mathematics, with at least a B3 in Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "engineering_sciences_computer",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Engineering Sciences (Computer Engineering Option)?",
+                  "Can you provide the admission criteria for Engineering Sciences (Computer Engineering) program?",
+                  "What are the prerequisites for studying Engineering Sciences with Computer Engineering Option?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Engineering Sciences (Computer Engineering Option):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Physics, Chemistry and Elective Mathematics, with at least a B3 in Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "engineering_sciences_food_process",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Engineering Sciences (Food Process Engineering Option)?",
+                  "Can you provide the admission criteria for Engineering Sciences (Food Process Engineering) program?",
+                  "What are the prerequisites for studying Engineering Sciences with Food Process Engineering Option?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Engineering Sciences (Food Process Engineering Option):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Physics, Chemistry, and Elective Mathematics, with at least a B3 in Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "engineering_sciences_materials",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Engineering Sciences (Materials Science & Engineering Option)?",
+                  "Can you provide the admission criteria for Engineering Sciences (Materials Science & Engineering) program?",
+                  "What are the prerequisites for studying Engineering Sciences with Materials Science & Engineering Option?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Engineering Sciences (Materials Science & Engineering Option):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Physics, Chemistry, and Elective Mathematics, with at least a B3 in Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "veterinary_medicine",
+              "patterns": [
+                  "What are the entry requirements for Doctor of Veterinary Medicine?",
+                  "Can you provide the admission criteria for Veterinary Medicine program?",
+                  "What are the prerequisites for studying Veterinary Medicine?"
+              ],
+              "responses": [
+                  "Entry requirements for Doctor of Veterinary Medicine:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Biology, Chemistry, and either Physics or Elective Mathematics"
+              ]
+          },
+          {
+              "tag": "humanities_arts_languages",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Arts?",
+                  "Can you provide the admission criteria for Arts program?",
+                  "What are the prerequisites for studying Arts?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Arts:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in any three elective subjects"
+              ]
+          },
+          {
+              "tag": "business_administration",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Business Administration?",
+                  "Can you provide the admission criteria for Business Administration program?",
+                  "What are the prerequisites for studying Business Administration?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Business Administration:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in any three elective subjects"
+              ]
+          },
+          {
+              "tag": "law",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Laws (LLB)?",
+                  "Can you provide the admission criteria for LLB program?",
+                  "What are the prerequisites for studying Law?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Laws (LLB):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in any three elective subjects"
+              ]
+          },
+          {
+              "tag": "performing_arts",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Fine Arts?",
+                  "Can you provide the admission criteria for Fine Arts program?",
+                  "What are the prerequisites for studying Fine Arts?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Fine Arts:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in any three electives subjects. The program is open to applicants interested in the Performing Arts with aggregate 24 or better. They will be expected to attend an audition or interview."
+              ]
+          },
+          {
+              "tag": "education_leadership",
+              "patterns": [
+                  "What are the entry requirements for BA Education (English)?",
+                  "Can you provide the admission criteria for Education (English) program?",
+                  "What are the prerequisites for studying Education (English)?"
+              ],
+              "responses": [
+                  "Entry requirements for BA Education (English):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in any three elective subjects including English Literature."
+              ]
+          },
+          {
+              "tag": "education_non_teaching",
+              "patterns": [
+                  "What are the entry requirements for BA Education (Non-Teaching)?",
+                  "Can you provide the admission criteria for Education (Non-Teaching) program?",
+                  "What are the prerequisites for studying Education (Non-Teaching)?"
+              ],
+              "responses": [
+                  "Entry requirements for BA Education (Non-Teaching):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in any three elective subjects."
+              ]
+          },
+          {
+              "tag": "education_sport_physical_culture",
+              "patterns": [
+                  "What are the entry requirements for BA Sport and Physical Culture Studies?",
+                  "Can you provide the admission criteria for Sport and Physical Culture Studies program?",
+                  "What are the prerequisites for studying Sport and Physical Culture Studies?"
+              ],
+              "responses": [
+                  "Entry requirements for BA Sport and Physical Culture Studies:\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in any three elective subjects"
+              ]
+          },
+          {
+              "tag": "education_mathematics",
+              "patterns": [
+                  "What are the entry requirements for B.Sc. Education (Mathematics)?",
+                  "Can you provide the admission criteria for Education (Mathematics) program?",
+                  "What are the prerequisites for studying Education (Mathematics)?"
+              ],
+              "responses": [
+                  "Entry requirements for B.Sc. Education (Mathematics):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Elective Mathematics and any other two elective subjects"
+              ]
+          },
+          {
+              "tag": "education_biology",
+              "patterns": [
+                  "What are the entry requirements for B.Sc. Education (Biology)?",
+                  "Can you provide the admission criteria for Education (Biology) program?",
+                  "What are the prerequisites for studying Education (Biology)?"
+              ],
+              "responses": [
+                  "Entry requirements for B.Sc. Education (Biology):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Biology and any other two elective subjects"
+              ]
+          },
+          {
+              "tag": "education_chemistry",
+              "patterns": [
+                  "What are the entry requirements for B.Sc. Education (Chemistry)?",
+                  "Can you provide the admission criteria for Education (Chemistry) program?",
+                  "What are the prerequisites for studying Education (Chemistry)?"
+              ],
+              "responses": [
+                  "Entry requirements for B.Sc. Education (Chemistry):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Chemistry and any other two elective subjects"
+              ]
+          },
+          {
+              "tag": "education_physics",
+              "patterns": [
+                  "What are the entry requirements for B.Sc. Education (Physics)?",
+                  "Can you provide the admission criteria for Education (Physics) program?",
+                  "What are the prerequisites for studying Education (Physics)?"
+              ],
+              "responses": [
+                  "Entry requirements for B.Sc. Education (Physics):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in Physics and any other two elective subjects"
+              ]
+          },
+          {
+              "tag": "distance_education_business_administration",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Business Administration (Distance Education)?",
+                  "Can you provide the admission criteria for Business Administration (Distance Education) program?",
+                  "What are the prerequisites for studying Business Administration through Distance Education?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Business Administration (Distance Education):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in any three elective subjects with the total aggregate not exceeding 24"
+              ]
+          },
+          {
+              "tag": "distance_education_arts",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Arts (Distance Education)?",
+                  "Can you provide the admission criteria for Arts (Distance Education) program?",
+                  "What are the prerequisites for studying Arts through Distance Education?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Arts (Distance Education):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in any three elective subjects with the total aggregate not more than 30"
+              ]
+          },
+          {
+              "tag": "distance_education_information_technology",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Information Technology (Distance Education)?",
+                  "Can you provide the admission criteria for Information Technology (Distance Education) program?",
+                  "What are the prerequisites for studying Information Technology through Distance Education?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Information Technology (Distance Education):\nCore: Credit passes in English, Core Mathematics, Integrated Science & Social Studies\nElectives: Credit passes in any three elective subjects with the total aggregate not exceeding 30"
+              ]
+          },
+          {
+              "tag": "distance_education_nursing",
+              "patterns": [
+                  "What are the entry requirements for Bachelor of Science in Nursing (Distance Education)?",
+                  "Can you provide the admission criteria for Nursing (Distance Education) program?",
+                  "What are the prerequisites for studying Nursing through Distance Education?"
+              ],
+              "responses": [
+                  "Entry requirements for Bachelor of Science in Nursing (Distance Education):\nApplicants must be professional nurses who already have a Diploma in Nursing from a recognized Nursing Training College, with a Final Grade Point Average (FGPA) OF 2.5 or better."
+              ]
+          },
+      
+      
+    
+      {
         "tag": "funny",
         "patterns": [
           "Tell me a joke!",
