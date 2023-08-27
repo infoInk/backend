@@ -19,7 +19,7 @@ Create a virtual environment and activate it:
 
 ```bash
 $ python3 -m venv venv
-$ source venv/bin/activate
+$ . venv/bin/activate
 ```
 
 ### 2. Install Dependencies
