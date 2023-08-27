@@ -11,7 +11,7 @@ Follow these instructions to set up and run the chatbot on your local machine.
 Clone the repository and navigate to the project directory using the following commands:
 
 ```bash
-$ git clone https://github.com/python-engineer/chatbot-deployment.git
+$ git clone https://github.com/infoInk/backend.git
 $ cd chatbot-deployment
 ```
 
@@ -19,7 +19,7 @@ Create a virtual environment and activate it:
 
 ```bash
 $ python3 -m venv venv
-$ source venv/bin/activate
+$ . venv/bin/activate
 ```
 
 ### 2. Install Dependencies
