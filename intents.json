@@ -131,7 +131,7 @@
         ]
       },
       {
-        "tag": "Orientation",
+        "tag": "orientation",
         "patterns": [
             "When will I receive information about orientation for new students?",
             "When is orientation?"
@@ -209,6 +209,8 @@
         "tag": "credits",
         "patterns": [
             "How many credits should I take per semester?",
+            "How many credits can I take per semester?",
+            "How many credits can I take a semester?",
             "How many credits am i supposed to take?",
             "what are my credits?"
         ],
@@ -223,7 +225,8 @@
         "patterns": [
             "What is the process for registering for courses online?",
             "Can i register my courses online?",
-            "How do i register my courses online?"
+            "How do i register my courses online?",
+            "steps to register my courses online?"
         ],
         "responses": [
             "Course registration is typically done through the University of Ghana's student portal. Log in to your account, navigate to the registration section, and follow the step-by-step instructions provided to select and enroll in your desired courses.",
@@ -246,7 +249,7 @@
         ]
       },
       {
-        "tag": "application_evoucher",
+        "tag": "application_e-voucher",
         "patterns": [
             "Where can i get the University of Ghana application e-vouchers to buy?",
             "From where can e-vouchers for University of Ghana applications be acquired?",
@@ -259,7 +262,7 @@
         ]
       },
       {
-        "tag": "Nov_Dec",
+        "tag": "Nov/Dec",
         "patterns": [
             "Do you admit students with Nov/Dec results?",
             "Do you accept students with Nov/Dec results?"
@@ -306,7 +309,8 @@
                 "How many sets of results can I apply with?"
             ],
             "responses": [
-                "Yes. You can apply with up to 3 sets of results."
+                "Yes. You can apply with up to 3 sets of results.",
+                "You can apply with up to 3 sets of results."
             ]
         },
         {
@@ -321,7 +325,7 @@
             ]
         },
         {
-            "tag": "passport_photograph_background",
+            "tag": "passport_photo_background_colour",
             "patterns": [
                 "What should the background colour of the passport photograph be?",
                 "Is there a specific background colour for the passport photograph?",
@@ -376,7 +380,7 @@
             ]
         },
         {
-            "tag": "nov_dec_results_admission",
+            "tag": "nov/dec_results_admission",
             "patterns": [
                 "Do you admit students with Nov/Dec results?",
                 "Are applicants with Nov/Dec results eligible for admission?",
@@ -387,7 +391,7 @@
             ]
         },
         {
-            "tag": "may_june_wassce_eligibility",
+            "tag": "may/june_wassce_eligibility",
             "patterns": [
                 "I am writing WASSCE in May/June this year. Can I apply?",
                 "Is it possible to apply with May/June WASSCE results of the current year?",
@@ -398,7 +402,7 @@
             ]
         },
         {
-            "tag": "nov_dec_results_eligibility",
+            "tag": "nov/dec_results_eligibility",
             "patterns": [
                 "I will be writing NOV/DEC this year. Can I apply?",
                 "Can I submit an application if I will be taking the NOV/DEC exams this year?",
@@ -420,7 +424,7 @@
             ]
         },
         {
-            "tag": "nov_dec_results_application",
+            "tag": "nov/dec_results_application",
             "patterns": [
                 "I will be writing NOV/DEC this year, can I apply for admissions?",
                 "Is it possible to apply with NOV/DEC results?",
@@ -574,7 +578,7 @@
             ]
         },
         {
-            "tag": "general_entry_requirements",
+            "tag": "entry_requirements",
             "patterns": [
                 "What are the general entry requirements for admission?",
                 "What are the basic admission criteria?",
@@ -636,7 +640,7 @@
                 "Are Business students given priority for Business Administration?"
             ],
             "responses": [
-                "No, we do not. The entry requirement into Business Administration is ‘Any Three Elective subjects.\nThe background does not matter once you meet the cutoff point."
+                "The entry requirement into Business Administration is ‘Any Three Elective subjects.\nThe background does not matter once you meet the cutoff point."
             ]
         },
         {
